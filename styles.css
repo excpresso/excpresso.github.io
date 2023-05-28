@@ -1,0 +1,169 @@
+/* CSS for header */
+/* Add this at the beginning of the styles.css file */
+@media screen and (max-width: 600px) {
+  /* Adjust the max-width value according to your design */
+  body {
+    font-size: 14px; /* Adjust the font size for better readability on smaller screens */
+  }
+  
+  .logo img {
+    width: 80px; /* Reduce the logo size for better fit */
+  }
+  
+  nav ul {
+    flex-direction: column; /* Stack the navigation links vertically */
+  }
+  
+  .coffee-wrapper {
+    width: 100%; /* Make the coffee wrappers occupy the full width of the container */
+  }
+}
+
+header {
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 0px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.logo img {
+  transition: transform 0.3s;
+}
+
+.logo img:hover {
+  transform: scale(1.2); /* Increase the size of the logo when hovered */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #efff5e;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+/* Other CSS styles */
+
+nav a:hover {
+  background: linear-gradient(to bottom, #9900ff, #ff8a00);
+}
+
+nav a.active {
+  background: linear-gradient(to bottom, #9900ff, #ff8a00);
+}
+
+/* CSS for interactive image */
+#coffee-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+#coffee-container img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#coffee-container img:hover {
+  transform: scale(1.1);
+}
+
+.coffee-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; /* Add margin to create space between images */
+}
+
+.coffee-wrapper img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s;
+  display: block; /* Add this line to center the images horizontally */
+  margin: 0 auto; /* Add this line to center the images horizontally */
+}
+
+body {
+  background-image: url("bg2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+  display: none; /* Hide the menu by default */
+}
+
+#menu-toggle:checked ~ .menu {
+  display: block; /* Display the menu when the checkbox is checked */
+}
+
+@media screen and (min-width: 600px) {
+  /* Adjust the min-width value to define the breakpoint for collapsing the menu */
+  .menu {
+    display: block; /* Show the menu for wider screens */
+  }
+  
+  #menu-toggle {
+    display: none; /* Hide the toggle for wider screens */
+  }
+}
+.menu-icon {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none; /* Add this to remove the outline when the image is clicked */
+}
+
+.menu-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+#menu-toggle {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+/* Add any additional styles for the game container */
+
+/* CSS for footer */
+footer {
+  background-color: transparent;
+  color: #efff5e;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0px;
+  margin-top: 10rem;
+  text-align: center;
+}

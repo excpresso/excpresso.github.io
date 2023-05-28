@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Cass Williams</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <title>Image Carousel Example</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="logo.gif" alt="Interactive Image"
+      width="100px"></div>
+      <nav>
+      <label for="menu-toggle" class="menu-icon">
+        <img src="menu.png" alt="Menu Icon">
+      </label>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="https://www.linkedin.com/in/excpresso">LinkedIn</a></li>
+          </ul>
+        </div>
+      </nav>
+     
+
+  </header>
+ 
+<h1 class="centered">ILLUSTRATION</h1>
+<div class="carousel-wrapper">
+  <div class="carousel">
+    <div class="carousel-container">
+      <img src="4.png" alt="Description of the image">
+      <img src="5.png" alt="Description of the image">
+      <img src="6.png" alt="Description of the image">
+      <img src="7.gif" alt="Description of the image">
+      <img src="8.gif" alt="Description of the image">
+      <img src="9.gif" alt="Description of the image">
+    </div>
+    <button class="prev-button">&larr;</button>
+    <button class="next-button">&rarr;</button>
+  </div>
+</div>
+ 
+<h1 class="centered">AUDIO</h1>
+  <div class="audio-container">
+    <audio controls>
+      <source src="song.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <h1 class="centered">GAME DEVELOPMENT</h1>
+<div id="container">
+  <img id="myImage" src="game.png" onclick="replaceWithGame()">
+</div>
+
+<footer>
+    &copy; Cass Williams
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
