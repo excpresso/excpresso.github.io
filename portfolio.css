@@ -103,11 +103,9 @@ header {
 
 
   .carousel-wrapper {
-    max-width: 75%; /* Adjust the width as needed */
+    max-width: 100%;; /* Adjust the width as needed */
     margin: 0 auto; 
     margin-bottom: 9rem;/* Center the carousel within the wrapper */
-    display: flex;
-    justify-content: center;
   }
 
   .carousel {
@@ -198,7 +196,7 @@ header {
     }
   }
   .menu-icon {
-    display: inline-block;
+    display: transparent;
     vertical-align: middle;
     cursor: pointer;
     padding: 0;
