@@ -56,7 +56,7 @@ header {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
+    display: block;
     justify-content: flex-end;
   }
   
