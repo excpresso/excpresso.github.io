@@ -50,7 +50,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
+  display: block;
   justify-content: flex-end;
 }
 
@@ -142,6 +142,7 @@ body {
   padding: 0;
   background: none;
   border: none;
+  color: transparent;
   outline: none; /* Add this to remove the outline when the image is clicked */
 }
 
@@ -155,6 +156,7 @@ body {
   top: -9999px;
   left: -9999px;
 }
+
 
 /* Add any additional styles for the game container */
 
