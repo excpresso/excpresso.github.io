@@ -196,12 +196,13 @@ header {
     }
   }
   .menu-icon {
-    display: transparent;
+    display: inline-block;
     vertical-align: middle;
     cursor: pointer;
     padding: 0;
     background: none;
     border: none;
+    color: transparent;
     outline: none; /* Add this to remove the outline when the image is clicked */
   }
   
