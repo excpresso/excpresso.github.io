@@ -32,8 +32,8 @@ header {
   }
 
   h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    color:#fff
+    font-family:'courier';
+    color:#fffa5e
   }
 
 
@@ -213,8 +213,8 @@ header {
   }
   
   .menu-icon img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   
   #menu-toggle {
