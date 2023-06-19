@@ -36,6 +36,7 @@ header {
     color:#fff
   }
 
+
   .logo {
     font-size: 0px;
     font-weight: bold;
@@ -52,6 +53,9 @@ header {
     transform: scale(1.2); /* Increase the size of the logo when hovered */
   }
 
+  .menu-icon img:hover {
+    transform: scale(1.1);
+  }
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -59,7 +63,7 @@ header {
     display: block;
     justify-content: flex-end;
   }
-  
+
   nav li {
     margin-right: 15px;
   }
@@ -93,17 +97,9 @@ header {
     background-position: center;
   }
   
-  
-  .audio-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh; /* Adjust the height as needed */
-  }
-
-
   .carousel-wrapper {
-    max-width: 100%;; /* Adjust the width as needed */
+    width: 350px;
+    height: 439px; /* Adjust the width as needed */
     margin: 0 auto; 
     margin-bottom: 9rem;/* Center the carousel within the wrapper */
   }
@@ -146,6 +142,16 @@ header {
   
   .next-button {
     right: 10px;
+  }
+
+  
+  .audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15vh;
+    margin-bottom: -15vh;
+    height: 50vh; /* Adjust the height as needed */
   }
   
   #container {
