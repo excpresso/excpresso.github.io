@@ -49,3 +49,17 @@ menuToggle.addEventListener('change', function() {
     menuLabel.classList.remove('open');
   }
 });
+
+function toggleImage() {
+  var image = document.getElementById("menuimage");
+  var currentSrc = image.src;
+  var newSrc = "";
+
+  if (currentSrc.endsWith("menu.png")) {
+    newSrc = "menu2.png";
+  } else {
+    newSrc = "menu.png";
+  }
+
+  image.src = newSrc;
+}

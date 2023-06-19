@@ -149,12 +149,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -15vh;
-    margin-bottom: -15vh;
+    margin-top: -13vh;
     height: 50vh; /* Adjust the height as needed */
   }
   
   #container {
+    margin-top: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
